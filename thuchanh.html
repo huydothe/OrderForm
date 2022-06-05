@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Form</title>
+</head>
+<h1>Order Form</h1>
+<style>
+    .wufoo{
+        font-family: "Lucida Grande","Lucida Sans Unicode" , Tahoma, sans-serif;
+    }
+</style>
+<body>
+<h2>
+    <p>What would you like to buy</p>
+</h2><br>
+<form method="get" action="thuchanh.html">
+<select name="select">
+    <option value="   ">A</option>
+    <option value="B">B (+ $0,5)</option>
+    <option value="C">C (+ $0,5)</option>
+</select>
+    <h3><p>How many would you buy</p></h3>
+    <input type="radio" name="submit">1 - $10<br>
+    <input type="radio" name="submit">2 - $20<br>
+    <input type="radio" name="submit">3 - $25<br>
+    <h3><p>Name <span style="color : red">*</span></p></h3>
+    <input type="text" name="First name" placeholder="First name" size="15">
+    <input type="text" name="Last name" placeholder="Last name" Size="15">
+    <h3><p>Email</p></h3>
+    <input type="text" name="email" size="35">
+    <h3><p>Phone number</p></h3>
+    <input type="text" name="phone 1" size="10"> -
+    <input type="text" name="phone 2" size="10"> -
+    <input type="text" name="phone 3" size="10"><br><br>
+    <input type="submit" name="btsubmit" value="Submit">
+</form>
+</body>
+</html>
